@@ -1,0 +1,20 @@
+.imagehovers {
+    /* border: 10px solid black !important; */
+    transition: all 0.3s;
+    /* overflow: hidden; Optional: You can remove this if you want to display overflowing content */
+    width: 25rem;
+    aspect-ratio: 1;
+    border: none;
+ }
+ 
+ .imagehovers:hover {
+     /* transform: scale(1.2); */
+     overflow: visible; 
+ }
+ .btn{
+    width: 15rem;
+    margin: auto;
+ }
+ .mt{
+    box-shadow: 0.5rem 0.5rem 3rem rgb(184, 143, 150);
+ }

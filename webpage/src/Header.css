@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+li a{
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 150px;
+    color: white;
+}
+li a:hover{
+    background-color: aqua;
+    box-shadow: 10px 10px 30px inset red;
+}
+.borders {
+    border: 1px solid black;
+    background: rgba( 158, 62, 62, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

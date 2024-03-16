@@ -1,0 +1,94 @@
+.borders {
+    border: 1px solid black;
+    height: 40rem;
+    margin-top: 5rem;
+    border-radius: 50px;
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%), radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%), radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%), radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%), radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%), radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%), radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%), radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%), radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%), radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%), linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+    /* background: crimson;     */
+}
+
+.dflex {
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -50px; */
+    /* border: 1px solid red ;
+    width: 100%; */
+}
+
+.bord {
+    /* opacity: 0.7; */
+    width: 40rem;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .wrapper{
+    position: fixed;
+    /* border: 10px solid black; */
+    top: 37rem;
+    left:50rem
+    
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    /* background: #333; */
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px white;
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  a:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
